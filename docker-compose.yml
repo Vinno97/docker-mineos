@@ -1,5 +1,5 @@
 mineos:
-  image: yujiod/minecraft-mineos
+  build: .
   volumes:
     - ./data/minecraft:/var/games/minecraft
   environment:
@@ -7,8 +7,3 @@ mineos:
   ports:
     - 8443:8443
     - 25565:25565
-    - 25566:25566
-    - 25567:25567
-    - 25568:25568
-    - 25569:25569
-    - 25570:25570
